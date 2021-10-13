@@ -65,8 +65,10 @@ button{
     border-width: 1px; */
     border: 1px solid #0074AA;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 #learnMoreBtn{
@@ -138,4 +140,26 @@ header .mainHeader{
     color: #fff;
     border-radius: 2px;
     text-transform: uppercase;
+}
+
+footer{
+    text-align:center;
+    padding : 60px 0 0;
+    border-top: 1px solid #ccc;
+}
+
+.copyrightTxt{
+    padding : 20px 10px;
+    margin-top:20px;
+    background-color:#fafafa ;
+}
+
+#c2a{
+    padding: 60px 0;
+    text-align : center;
+}
+
+#c2a button{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
