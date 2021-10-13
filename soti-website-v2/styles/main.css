@@ -1,0 +1,141 @@
+/* external styles */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset margin /\ */
+
+body{
+    font-family: sans-serif,Arial, Helvetica,'Times New Roman';
+      /*' ' is only needed when there is space in font name */
+    
+}
+
+button{
+    color: #fff;
+    background-color: #0074AA;
+    /* border-color: #0074AA;
+    border-style: solid;
+    border-width: 1px; */
+    border: 1px solid #0074AA;
+    padding: 10px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#learnMoreBtn{
+    color:#fff;
+    background-color: yellow ;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.partnerHeading{
+    color: #000;
+    background-color: yellow;
+}
+
+.primaryBtn{
+    background-color: #326407;
+    color: #fff;
+}
+
+nav ul li{
+    display: inline;
+    
+}
+
+header{
+    background-color: #fff;
+}
+
+header .mainHeader{
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#heroWrapper{
+    background: #0074AA url("../assets/images/soti-banner.png");
+    background-position: center;
+    background-size: cover;
+    height:520px;
+
+    /* padding-left:120px ;
+    padding-right: 120px; */
+    /* same as above up and down 120 and left and right 0 */
+    /* padding: 120px 0px 120px 0 px; */
+    /* below same as above */
+    /* padding: 120px 0px; */
+
+}
+
+#heroWrapper .heroArea{
+    width: 84%;
+    margin-Left: 8%;
+    margin-right: 8%;
+    padding: 130px 0 166px 0;
+}
+
+#heroWrapper h1{
+    font-size: 36px;
+    color: #fff;
+    width: 55%;
+    line-height: 46px;
+    font-weight: normal;
+}
+
+#heroWrapper #learnMoreBtn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
