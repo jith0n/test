@@ -1,0 +1,32 @@
+.heroArea{
+  background: #0074AA url("../assets//images/soti-banner-big.png") no-repeat;
+  height:560px;
+  
+}
+
+#learnMoreBtn{
+  color: white;
+  border-color: white;
+
+}
+#learnMoreBtn:hover{
+  color:#0074AA;
+  background-color:white;
+}
+
+main .row{
+  padding:50px 0;
+}
+main h4{
+  text-align: center;
+  font-size: 18px;
+  color: #0074AA;
+}
+main p{
+  text-align: center;
+  font-size: 16px;
+}
+
+main img{
+  width: 10px;
+}
